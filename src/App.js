@@ -47,7 +47,7 @@ function App() {
           <Forecast title="daily forecast" items={weather.daily} />
         </div>
       )}
-      <ToastContainer autoClose={6500} theme='colored' newestOnTop={true} />
+      <ToastContainer autoClose={4500} theme='colored' newestOnTop={true} />
     </div>
   );
 }
